@@ -6,6 +6,7 @@ import Footer from '@/components/home/footer/footer';
 
 const poppins = Poppins({
   weight: ['100', '300', '400', '500', '600', '700', '800', '900', '200'],
+  subsets: ['latin'], // Especifica el subconjunto
 });
 
 export const metadata: Metadata = {
