@@ -2,20 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  .nav__link {
+    @apply relative text-base font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-amber-600 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.fade-mask {
+  mask-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 5%,
+    /* Transparencia en los bordes (fondo blanco) */ rgba(255, 255, 255, 0.1)
+      15%,
+    /* Suave transición en los bordes */ rgba(255, 255, 255, 0.2) 25%,
+    /* Aumentamos un poco la transición */ rgba(255, 255, 255, 1) 75%,
+    /* Centro completamente visible */ rgba(255, 255, 255, 0.2) 85%,
+    /* Transición suave de vuelta */ rgba(255, 255, 255, 0.1) 95%,
+    /* Suave desvanecimiento en el borde */ rgba(255, 255, 255, 0) 100%
+      /* Transparencia al final (fondo blanco) */
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 5%,
+    rgba(255, 255, 255, 0.1) 15%,
+    rgba(255, 255, 255, 0.2) 25%,
+    rgba(255, 255, 255, 1) 75%,
+    rgba(255, 255, 255, 0.2) 85%,
+    rgba(255, 255, 255, 0.1) 95%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  mask-type: luminance;
+  -webkit-mask-type: luminance;
 }
