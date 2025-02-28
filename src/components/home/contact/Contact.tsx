@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsInstagram, BsTwitter, BsEnvelope } from 'react-icons/bs';
+import { BsInstagram, BsTwitter, BsEnvelope, BsX } from 'react-icons/bs';
 import { FaFacebook, FaWhatsapp } from 'react-icons/fa';
 
 function Contact() {
@@ -72,6 +72,43 @@ function Contact() {
               >
                 contacto@tuempresa.com
               </a>
+            </div>
+
+            {/* Redes Sociales */}
+            <div className="mt-8 space-y-4">
+              <div className="flex items-center space-x-4">
+                <BsInstagram className="text-2xl text-gray-700 hover:text-amber-800 transition" />
+                <a
+                  href="https://www.instagram.com/tuempresa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 hover:text-amber-800"
+                >
+                  Instagram
+                </a>
+              </div>
+              <div className="flex items-center space-x-4">
+                <FaFacebook className="text-2xl text-gray-700 hover:text-amber-800 transition" />
+                <a
+                  href="https://www.facebook.com/tuempresa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 hover:text-amber-800"
+                >
+                  Facebook
+                </a>
+              </div>
+              <div className="flex items-center space-x-4">
+                <FaWhatsapp className="text-2xl text-gray-700 hover:text-amber-800 transition" />
+                <a
+                  href="https://wa.me/1123456789"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 hover:text-amber-800"
+                >
+                  WhatsApp
+                </a>
+              </div>
             </div>
           </div>
 
