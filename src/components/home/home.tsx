@@ -5,6 +5,7 @@ import AnalyticsFeature from './analyticsFeature/AnalyticsFeature';
 import Products from './products/Products';
 import WhoWeAre from './whoweare/WhoWeAre';
 import Contact from './contact/Contact';
+import CompanySlider from './company-slider/CompanySliser';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <WhoWeAre />
       <Products />
       <WhyChoose />
+      <CompanySlider />
       <AnalyticsFeature />
       <Contact />
     </div>

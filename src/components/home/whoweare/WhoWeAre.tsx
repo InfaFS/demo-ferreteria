@@ -12,12 +12,9 @@ function WhoWeAre() {
           </h1>
           {/* Paragraph */}
           <p className="text-gray-700 text-lg leading-relaxed">
-            En <span className="font-semibold">Ferro</span>, nos dedicamos a
-            ofrecer los mejores productos para la construcción, mantenimiento y
-            seguridad. Con años de experiencia en el sector, nos comprometemos a
-            brindar la más alta calidad en todos nuestros artículos, asegurando
-            que cada cliente encuentre lo que necesita con la mejor atención y
-            servicio.
+            Es un placer para nosotros presentarle a Ferretería Industrial
+            Montenegro, una empresa dedicada a la comercialización de productos
+            de ferretería industrial en Tucumán y provincias limítrofes.
           </p>
           <Counter />
         </div>

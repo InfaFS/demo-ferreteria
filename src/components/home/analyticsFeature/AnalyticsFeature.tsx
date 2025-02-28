@@ -29,27 +29,27 @@ function AnalyticsFeature() {
             Minoristas y mayoristas confían en nosotros
           </h1>
           <p className="mt-4 text-gray-600 text-sm font-medium leading-[2rem]">
-            Ofrecemos una amplia gama de productos de alta calidad para
-            satisfacer las necesidades de nuestros clientes. Nuestro compromiso
-            con la excelencia y la satisfacción del cliente nos ha permitido
-            ganar la confianza de minoristas y mayoristas en todo el país.
+            En Ferreteria Industrial Montenegro, nos enorgullecemos de nuestra
+            filosofia empresarial, sustentada en valores que nos guian en cada
+            una de nuestras operaciones y nos permiten construir relaciones
+            solidas y duraderas con nuestros clientesl.
           </p>
           <ul className="mt-7 space-y-2 text-gray-800">
             <li className="flex items-center font-semibold">
               <FaCheckCircle className="text-green-500 mr-2" />
-              Contamos con un equipo de expertos en la industria
+              Seriedad
             </li>
             <li className="flex items-center font-semibold">
               <FaCheckCircle className="text-green-500 mr-2" />
-              Los productos son de alta calidad y duraderos
+              Responsabilidad
             </li>
             <li className="flex items-center font-semibold">
               <FaCheckCircle className="text-green-500 mr-2" />
-              Lideramos las ventas en la ciudad de La Plata hace más de 10 años
+              Compromiso
             </li>
             <li className="flex items-center font-semibold">
               <FaCheckCircle className="text-green-500 mr-2" />
-              Algo
+              Honestidad
             </li>
           </ul>
         </div>

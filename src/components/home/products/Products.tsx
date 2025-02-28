@@ -10,22 +10,22 @@ function Products() {
   const features = [
     {
       icon: <FaHammer className="text-amber-900" />,
-      text: 'Artículos de construcción',
+      text: 'Accesorios galbanizados de 1-4 a 4"',
       description: 'Todo lo necesario para tus proyectos',
     },
     {
       icon: <PiScrewdriver className="text-amber-900" />,
-      text: 'Artículos de reparación',
+      text: 'Elementos de H* Negro',
       description: 'Herramientas confiables y duraderas',
     },
     {
       icon: <FaHelmetSafety className="text-amber-900" />,
-      text: 'Artículos de seguridad',
+      text: 'Elementos de seguridad personal',
       description: 'Protección garantizada',
     },
     {
       icon: <HiMiniWrenchScrewdriver className="text-amber-900" />,
-      text: 'Artículos de mantenimiento',
+      text: 'Accesorios serie 2000',
       description: 'Productos esenciales para el cuidado',
     },
     {
@@ -50,13 +50,12 @@ function Products() {
           </h1>
           {/* Intro Text */}
           <p className="text-white text-center max-w-3xl mx-auto mb-12 leading-relaxed">
-            En <span className="font-semibold">Ferro</span>, ofrecemos una
-            amplia gama de productos diseñados para satisfacer las necesidades
-            de nuestros clientes. Ya sea que estés emprendiendo un proyecto de
-            construcción, necesites herramientas para reparaciones o busques
-            productos de mantenimiento y seguridad, aquí encontrarás todo lo que
-            necesitas para tu hogar o negocio, con la calidad y confiabilidad
-            que mereces.
+            En <span className="font-semibold">Ferro</span>, nos especializamos
+            en ofrecer una amplia gama de productos de alta calidad. Ya sea que
+            estés emprendiendo un proyecto de construcción, necesites
+            herramientas para reparaciones o busques productos de mantenimiento
+            y seguridad, aquí encontrarás todo lo que necesitas para tu hogar o
+            negocio, con la calidad y confiabilidad que mereces.
           </p>
           {/* Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

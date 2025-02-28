@@ -12,15 +12,15 @@ const scrollToSection = (id: string) => {
   const element = document.getElementById(id);
   if (element) {
     window.scrollTo({
-      top: element.offsetTop - 80, // Ajusta el valor para moverlo más arriba o abajo
-      behavior: 'smooth', // Desplazamiento suave
+      top: element.offsetTop - 80,
+      behavior: 'smooth',
     });
   }
 };
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-8">
+    <footer className="bg-gray-800 text-gray-300 py-8 px-4 md:px-8 lg:px-16">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* About Us */}
         <div>
